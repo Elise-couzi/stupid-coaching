@@ -1,8 +1,5 @@
 class QuestionsController < ApplicationController
   def ask
-    if params[:question].present?
-      raise
-    end
   end
 
   def answer
